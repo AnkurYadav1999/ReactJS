@@ -53,3 +53,11 @@ class LifecycleA extends Component {
 }
 
 export default LifecycleA
+
+
+
+/*
+This is related to render props (function)
+ <Counter render={(count,incrementCount)=><Click2 count={count} incrementCount={incrementCount}/>}/>
+    <Counter render={(count,incrementCount)=><Hover2 count={count} incrementCount={incrementCount}/>}/>
+*/
